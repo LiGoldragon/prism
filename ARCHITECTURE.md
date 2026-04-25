@@ -73,12 +73,12 @@ src/
 **Skeleton-as-design.** Empty bodies; structure and types
 follow nexus-schema's record kinds. Lands when criomed +
 lojixd reach the Compile loop (Stage F per
-[mentci-next/reports/064](https://github.com/LiGoldragon/mentci-next/blob/main/reports/064-bootstrap-as-iterative-competence.md)
+[mentci/reports/064](https://github.com/LiGoldragon/mentci/blob/main/reports/064-bootstrap-as-iterative-competence.md)
 — now in arch.md §10 rung-by-rung).
 
 ## Cross-cutting context
 
 - Compile + self-host loop:
-  [mentci-next/docs/architecture.md §7](https://github.com/LiGoldragon/mentci-next/blob/main/docs/architecture.md)
+  [criome/ARCHITECTURE.md §7](https://github.com/LiGoldragon/criome/blob/main/ARCHITECTURE.md)
 - Macro philosophy:
-  [mentci-next/docs/architecture.md §1](https://github.com/LiGoldragon/mentci-next/blob/main/docs/architecture.md)
+  [criome/ARCHITECTURE.md §1](https://github.com/LiGoldragon/criome/blob/main/ARCHITECTURE.md)
