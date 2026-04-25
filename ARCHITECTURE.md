@@ -17,21 +17,21 @@ records in sema (Opus + transitive OpusDeps + Module + Fn + ...)
    rsc projects → workdir/{src/*.rs, Cargo.toml, flake.nix}
        │
        ▼
-   lojixd invokes nix build (crane + fenix)
+   lojix invokes nix build (crane + fenix)
        │
        ▼
    compiled binary lands in /nix/store, then bundled into
    lojix-store with RPATH rewrite
 ```
 
-rsc is a **library**, not a daemon. It's linked into lojixd
+rsc is a **library**, not a daemon. It's linked into lojix
 and called as a function with a `Slot` of the root Opus.
 
 ## Boundaries
 
 Owns:
 
-- Reading sema records via the criomed-provided read interface.
+- Reading sema records via the criome-provided read interface.
 - Emitting valid Rust syntax: every macro invocation passes
   through verbatim (project authors no macros; ecosystem
   macros are emitted as `#[derive(...)]` etc. without
@@ -42,12 +42,12 @@ Owns:
 
 Does not own:
 
-- The records it projects (those are criomed's; rsc reads,
+- The records it projects (those are criome's; rsc reads,
   never writes).
 - Macro expansion (rustc handles that; rsc is upstream of
   expansion).
-- Build invocation (lojixd does that).
-- Diagnostic translation back to records (post-MVP; lojixd
+- Build invocation (lojix does that).
+- Diagnostic translation back to records (post-MVP; lojix
   captures rustc JSON and asserts CompileDiagnostic records).
 
 ## Macro philosophy
@@ -71,8 +71,8 @@ src/
 ## Status
 
 **Skeleton-as-design.** Empty bodies; structure and types
-follow nexus-schema's record kinds. Lands when criomed +
-lojixd reach the Compile loop (Stage F per
+follow nexus-schema's record kinds. Lands when criome +
+lojix reach the Compile loop (Stage F per
 [mentci/reports/064](https://github.com/LiGoldragon/mentci/blob/main/reports/064-bootstrap-as-iterative-competence.md)
 — now in arch.md §10 rung-by-rung).
 
