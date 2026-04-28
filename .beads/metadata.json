@@ -2,7 +2,7 @@
   "database": "dolt",
   "backend": "dolt",
   "dolt_mode": "embedded",
-  "dolt_database": "rsc",
+  "dolt_database": "prism",
   "project_id": "700041db-9d01-4ee9-95cb-be39cbbfb8f8",
   "global_dolt_database": "beads_global"
 }

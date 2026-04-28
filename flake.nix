@@ -1,5 +1,5 @@
 {
-  description = "Projector from sema database records to Rust source";
+  description = "Projector from sema database records to Rust source — code-emission subcomponent of lojix-daemon's runtime-creation pipeline";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
@@ -25,7 +25,7 @@
       in
       {
         devShells.default = pkgs.mkShell {
-          name = "rsc";
+          name = "prism";
           packages = [
             pkgs.jujutsu
             pkgs.pkg-config

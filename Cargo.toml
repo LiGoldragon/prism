@@ -1,14 +1,14 @@
 [package]
-name         = "rsc"
+name         = "prism"
 version      = "0.1.0"
 edition      = "2024"
 rust-version = "1.85"
 license      = "MIT OR Apache-2.0"
-repository   = "https://github.com/LiGoldragon/rsc"
-description  = "Records-to-source projector. Stub."
+repository   = "https://github.com/LiGoldragon/prism"
+description  = "Records-to-Rust source projector. Code-emission subcomponent of lojix-daemon's runtime-creation pipeline. Stub."
 
 [[bin]]
-name = "rsc"
+name = "prism"
 path = "src/main.rs"
 
 [dependencies]
