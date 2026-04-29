@@ -1,5 +1,5 @@
 {
-  description = "Projector from sema database records to Rust source — code-emission subcomponent of lojix-daemon's runtime-creation pipeline";
+  description = "Projector from sema database records to Rust source — code-emission subcomponent of forge-daemon's runtime-creation pipeline";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";

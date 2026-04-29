@@ -1,7 +1,7 @@
 # prism
 
 Records-to-Rust source projector. One subcomponent of
-[lojix-daemon](https://github.com/LiGoldragon/lojix)'s
+[forge-daemon](https://github.com/LiGoldragon/forge)'s
 runtime-creation pipeline (the code-emission phase). Stub
 today.
 

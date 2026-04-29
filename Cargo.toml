@@ -5,7 +5,7 @@ edition      = "2024"
 rust-version = "1.85"
 license      = "MIT OR Apache-2.0"
 repository   = "https://github.com/LiGoldragon/prism"
-description  = "Records-to-Rust source projector. Code-emission subcomponent of lojix-daemon's runtime-creation pipeline. Stub."
+description  = "Records-to-Rust source projector. Code-emission subcomponent of forge-daemon's runtime-creation pipeline. Stub."
 
 [[bin]]
 name = "prism"

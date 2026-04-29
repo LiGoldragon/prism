@@ -1,6 +1,6 @@
 # Agent instructions
 
-Repo role: **TRANSITIONAL skeleton** — will project sema records to `.rs` source files. One subcomponent of [lojix-daemon](https://github.com/LiGoldragon/lojix)'s runtime-creation pipeline (the code-emission phase; lojix-daemon owns the surrounding work — directory assembly, dependency resolution, compiler invocation, artifact landing in lojix-store).
+Repo role: **TRANSITIONAL skeleton** — will project sema records to `.rs` source files. One subcomponent of [forge-daemon](https://github.com/LiGoldragon/forge)'s runtime-creation pipeline (the code-emission phase; forge-daemon owns the surrounding work — directory assembly, dependency resolution, compiler invocation, artifact landing in arca).
 
 Read [ARCHITECTURE.md](ARCHITECTURE.md).
 
