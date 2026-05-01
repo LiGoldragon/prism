@@ -1,11 +1,11 @@
 # prism
 
 Records-to-Rust source projector. One subcomponent of
-[forge-daemon](https://github.com/LiGoldragon/forge)'s
+forge-daemon's
 runtime-creation pipeline (the code-emission phase). Stub
 today.
 
-See [ARCHITECTURE.md](ARCHITECTURE.md).
+See `ARCHITECTURE.md`.
 
 ## License
 

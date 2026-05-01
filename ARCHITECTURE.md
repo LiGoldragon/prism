@@ -2,7 +2,7 @@
 
 A future projector from records to Rust source. Walks records
 in sema, emits `.rs` source files. **One subcomponent of
-[forge-daemon](https://github.com/LiGoldragon/forge)'s
+forge-daemon's
 runtime-creation pipeline** — the code-emission phase.
 forge-daemon orchestrates the surrounding work: directory
 assembly, dependency resolution (`Cargo.toml`, `flake.nix`),
@@ -21,7 +21,7 @@ prism's body lands as a `lib.rs` once the records are wide
 enough to project. forge depends on prism via `Cargo.toml`
 and calls into it as a Rust API.
 
-Per [criome ARCHITECTURE.md](https://github.com/LiGoldragon/criome/blob/main/ARCHITECTURE.md)
+Per criome ARCHITECTURE.md
 §4 / §7 / §10:
 
 - forge owns the build pipeline; it links prism and calls
