@@ -76,11 +76,19 @@ ever reads the emitted text back (criome ARCH Invariant A).
 ## Macro-programming framing
 
 prism is the workspace's **records-as-macros** layer, in the
-sense criome ARCH §1 names: in the eventual self-hosting
-state, code-generation patterns live as sema rules that prism
+sense criome ARCH §1 names: in the eventually-self-hosting
+state, code-generation patterns live as Sema rules that prism
 emits as plain Rust; macro-like behaviour happens at the
-sema-to-Rust boundary, not as proc-macro expansion inside
+Sema-to-Rust boundary, not as proc-macro expansion inside
 rustc.
+
+> **Scope.** Today: per node-kind, prism carries one hand-coded
+> emission template (a Rust function in prism's own source).
+> Eventually: those templates are Sema rules driving emission. The
+> shape below describes today's piece — built rightly for what it
+> does today, not as a draft of the eventual rule-driven form. See
+> `~/primary/ESSENCE.md` §"Today and eventually — different things,
+> different names".
 
 Concretely: **per node-kind, prism carries one hand-coded
 emission template** (a Rust function in prism's own source).
